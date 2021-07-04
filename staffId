@@ -1,0 +1,22 @@
+public class staffId  {
+    public String id;
+    public String fullName;
+    public String telephoneNumber;
+    public String age;
+    public float salary;
+    public int experience;
+
+    public void work(String job){
+        System.out.println(fullName + " dang lam viec " + job);
+    }
+    public void relax(){
+        System.out.println(fullName + " dang nghi ngoi ");
+    }
+    public void getSalary(float amount){
+        salary = amount;
+        System.out.println(fullName + " nhan so luong la: "+ salary + "d");
+    }
+    public void travel(String somewhere){
+        System.out.println(fullName + " dang du lich o " + somewhere);
+    }
+}
