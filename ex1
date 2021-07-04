@@ -1,0 +1,14 @@
+public class Bai27 {
+    public static void main(String[] args) {
+        staffId phong = new staffId();
+        phong.fullName = "Nguyen Chinh Hong Phong";
+        phong.age = "21";
+        phong.id = "B674926";
+        phong.telephoneNumber = "89050530936";
+        phong.experience = 3;
+        phong.getSalary(95000000f);
+        phong.relax();
+        phong.travel("Nha Lam");
+   }
+
+}
