@@ -1,4 +1,4 @@
-public class Bai27 {
+public class Ex1 {
     public static void main(String[] args) {
         staffId phong = new staffId();
         phong.fullName = "Nguyen Chinh Hong Phong";
